@@ -6,7 +6,7 @@
 local M = {}
 
 M.base46 = {
-	theme = "onedark",
+	theme = "ayu_light",
 
 	-- hl_override = {
 	-- 	Comment = { italic = true },
@@ -21,4 +21,6 @@ M.base46 = {
 --      }
 --}
 
+-- Define the path of user's plugins is plugins/custom.lua
+M.plugins = "custom/plugins"
 return M
